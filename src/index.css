@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  width: 100%;
+}
+
+.m-common {
+  margin: 90px 165px 0 165px;
+}
+
+/* PageTop Styles */
+
+.pagetop-div-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+/* Navbar styles */
+
+.navbar-ul-style {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.navbar-ul-style li {
+  color: var(--Gunmetal, #5e607a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 173.333%;
+}
+
+.navbar-ul-style li:hover {
+  color: var(--Light-Vermillion, #f15d51);
+}
+
+/* PageMain styles */
+
+.pagemain-div-style {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* MaiCompLeft styles */
+
+.maincompleft-div-style {
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+}
+
+.maincompleft-second-div-style {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.maincompleft-second-div-style > p {
+  width: 140%;
+  color: #00001a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+/* ReadMoreSec styles */
+
+.readmoresec-div-style {
+  width: 140%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.readmoresec-div-style p {
+  color: #5e607a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 173.333%;
+}
+
+/* Button styles */
+
+.btn-read-more {
+  background: var(--Light-Vermillion, #f15d51);
+  color: var(--Almost-White, #fffdfa);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 171.429%;
+  letter-spacing: 4.375px;
+  padding: 13px 35px;
+  border: none;
+}
+
+.btn-read-more:hover {
+  background: var(--Dark-Space-Blue, #00001a);
+}
+
+/* MaiCompRight styles */
+
+.maincompright-div-style {
+  display: flex;
+  width: 640px;
+  flex-direction: column;
+  background: #00001a;
+  padding: 32px 24px;
+}
+
+.maincompright-div-style > span {
+  color: var(--Yellow, #e9aa52);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+/* RightListItem styles */
+
+.rightlistitem-div-style {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  border-bottom: 1px solid #5e607a;
+  gap: 8px;
+}
+
+.rightlistitem-div-style span {
+  color: var(--Almost-White, #fffdfa);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.rightlistitem-div-style span:hover {
+  color: var(--Yellow, #e9aa52);
+}
+
+.rightlistitem-div-style p {
+  color: var(--Silver, #c5c6ce);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 173.333%;
+}
+
+.border-none {
+  border: none;
+}
+
+/* PageBottom styles */
+
+.pagebottom-div {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CardItem styles */
+
+.carditem-div-style {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.carditem-second-div-style {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carditem-second-div-style span {
+  color: var(--Silver, #c5c6ce);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.carditem-second-div-style div {
+  color: var(--Dark-Space-Blue, #00001a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 133.333%;
+}
+.carditem-second-div-style div:hover {
+  color: var(--Light-Vermillion, #f15d51);
+}
+
+.carditem-second-div-style p {
+  color: var(--Gunmetal, #5e607a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 173.333%;
+}
+
+/* Additional styles */
+
+.for-active:hover {
+  cursor: pointer;
+}
